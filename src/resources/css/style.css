@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+html, body {
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: #0d0d0d;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  color: #ffffff;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10em;
+}
+
+.container-navbar {
+  color: #ffffff;
+  position: sticky;
+  top: 1em;
+  z-index: 999999;
+}
+.container-navbar ul {
+  gap: 1em;
+  list-style: none;
+  display: flex;
+}
+.container-navbar li {
+  padding: 10px 1em;
+}
+.container-navbar a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.container-navbar a:hover, .container-navbar a:active, .container-navbar a:focus {
+  color: #b7ab98;
+}/*# sourceMappingURL=style.css.map */
