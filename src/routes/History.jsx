@@ -2,9 +2,9 @@
 function Home() {
     return (
         <>
-            <div id="home" className="container">
+            <div id="history" className="container">
                 <p style={{fontSize: '80px'}}>
-                    HOME
+                    HISTORY
                 </p>
             </div>
         </>
