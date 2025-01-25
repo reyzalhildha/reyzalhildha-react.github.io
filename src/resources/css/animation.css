@@ -1,0 +1,31 @@
+/* Animasi untuk scrolling */
+@keyframes scroll {
+  from {
+    transform: translateX(20%); /* Mulai dari kanan */
+  }
+  to {
+    transform: translateX(-20%); /* Pergi ke kiri */
+  }
+}
+.slider-container {
+  overflow: hidden; /* Hanya menampilkan bagian dalam slider */
+  white-space: nowrap; /* Hindari teks turun ke baris baru */
+  width: 100%; /* Sesuaikan dengan layar */
+  background-color: #121212; /* Warna latar belakang */
+  color: #ffffff; /* Warna teks */
+  font-family: Arial, sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px; /* Tinggi slider */
+}
+.slider-container .slider-wrapper {
+  display: inline-block;
+  animation: scroll 5s linear infinite; /* Animasi scroll tanpa batas */
+}
+.slider-container .slider-wrapper .slider-text {
+  margin-right: 6px; /* Jarak antar teks */
+  display: inline-block; /* Teks dalam satu baris */
+}/*# sourceMappingURL=animation.css.map */
