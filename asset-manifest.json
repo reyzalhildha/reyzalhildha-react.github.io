@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/reyzalhildha-react.github.io/static/css/main.2156d07d.css",
+    "main.css": "/reyzalhildha-react.github.io/static/css/main.ff9f412b.css",
     "main.js": "/reyzalhildha-react.github.io/static/js/main.fcf2fb21.js",
     "static/js/453.1407b060.chunk.js": "/reyzalhildha-react.github.io/static/js/453.1407b060.chunk.js",
     "static/media/reyzalhildha.jpg": "/reyzalhildha-react.github.io/static/media/reyzalhildha.b628c9d5c703852cfa35.jpg",
     "static/media/Moglan_DEMO.ttf": "/reyzalhildha-react.github.io/static/media/Moglan_DEMO.9b83dd5fa6d4365aeb84.ttf",
     "index.html": "/reyzalhildha-react.github.io/index.html",
-    "main.2156d07d.css.map": "/reyzalhildha-react.github.io/static/css/main.2156d07d.css.map",
+    "main.ff9f412b.css.map": "/reyzalhildha-react.github.io/static/css/main.ff9f412b.css.map",
     "main.fcf2fb21.js.map": "/reyzalhildha-react.github.io/static/js/main.fcf2fb21.js.map",
     "453.1407b060.chunk.js.map": "/reyzalhildha-react.github.io/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2156d07d.css",
+    "static/css/main.ff9f412b.css",
     "static/js/main.fcf2fb21.js"
   ]
 }
