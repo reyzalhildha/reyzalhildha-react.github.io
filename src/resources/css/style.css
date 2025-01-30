@@ -7,6 +7,7 @@
   --background-color: color-mix(in lab, oklch(0% 0 0) 90%, transparent);
   --tertiary-color: #b7ab98;
   --font-moglan-demo: Moglan-Demo;
+  --font-jetBrains-mono: "JetBrains Mono", monospace;
 }
 
 [data-theme=dark] {
@@ -31,11 +32,70 @@ body {
   background-color: var(--background-color);
   font-weight: 400;
   font-optical-sizing: auto;
-  font-family: "JetBrains Mono", monospace;
+  font-family: var(--font-jetBrains-mono);
 }
 
 p {
   margin: 0;
+}
+
+input {
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  background: var(--white-color);
+  border-color: var(--text-color);
+}
+input::-moz-placeholder {
+  color: var(--black-color);
+  font-family: var(--font-jetBrains-mono);
+}
+input::placeholder {
+  color: var(--black-color);
+  font-family: var(--font-jetBrains-mono);
+}
+input:focus {
+  outline: none;
+}
+
+textarea {
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  background: var(--white-color);
+  border-color: var(--text-color);
+}
+textarea::-moz-placeholder {
+  color: var(--black-color);
+  font-family: var(--font-jetBrains-mono);
+}
+textarea::placeholder {
+  color: var(--black-color);
+  font-family: var(--font-jetBrains-mono);
+}
+textarea:focus {
+  outline: none;
+}
+
+button {
+  padding: 0.5em 1em;
+  border-radius: 20px;
+}
+button.send {
+  background: var(--background-color);
+  color: var(--background-color);
+  border: none;
+  transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+button.send:hover {
+  cursor: pointer;
+  transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+button.send:hover svg {
+  scale: 1.3;
+  transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+button.send svg {
+  font-size: large;
+  color: var(--text-color);
 }
 
 .loading {
@@ -91,6 +151,50 @@ p {
 }
 .container-navbar .btn-dark-mode {
   padding: 1em 2em;
+}
+
+.container-ollama {
+  width: 100%;
+  padding: 0 50em;
+}
+@media screen and (min-width: 768px) {
+  .container-ollama {
+    padding: 0 30em;
+  }
+}
+.container-ollama .box {
+  gap: 1em;
+  display: grid;
+}
+.container-ollama .chat-box {
+  height: 50vh;
+  overflow: auto;
+}
+.container-ollama .chat-box .container-bubble {
+  margin: 1em 0;
+  position: relative;
+  display: grid;
+}
+.container-ollama .chat-box .container-bubble.user {
+  justify-content: end;
+}
+.container-ollama .chat-box .container-bubble.bot {
+  justify-content: start;
+}
+.container-ollama .chat-box .bubble-msg {
+  padding: 0.5em 1em;
+  border: 1px solid var(--text-color);
+  border-radius: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: var(--font-jetBrains-mono);
+}
+
+.container-input {
+  gap: 1em;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
 }
 
 .Typewriter {

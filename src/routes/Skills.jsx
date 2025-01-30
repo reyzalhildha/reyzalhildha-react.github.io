@@ -6,7 +6,7 @@ export default function Skills() {
       <div id="skills" className="container">
         <Typewriter
           onInit={typewriter => {
-            typewriter.typeString("SKILLS").pauseFor(2500).start();
+            typewriter.typeString("Soon...").pauseFor(2500).start();
           }}
         />
       </div>

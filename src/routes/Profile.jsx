@@ -9,10 +9,10 @@ export default function Profile() {
                     PROFILE PROFILE PROFILE PROFILE <b style={{ color: 'transparent' }}>l</b>
                 </Marquee>
                 <div className="img-myself front">
-                    <img src={MySelf} />
+                    <img src={MySelf} alt=""/>
                 </div>
                 <div className="img-myself back">
-                    <img src={MySelf} />
+                    <img src={MySelf} alt=""/>
                 </div>
             </div>
             

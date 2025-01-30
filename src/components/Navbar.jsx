@@ -31,8 +31,9 @@ function Navbar() {
             <div className="container-navbar">
                 <ul>
                     <Link to="/">Profile</Link>
-                    <Link to="/about">Skilss</Link>
-                    <Link to="/history">Projects</Link>
+                    <Link to="/skills">Skilss</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/ollama">Ollama-Chat</Link>
                 </ul>
 
                 <div className="btn-dark-mode">
