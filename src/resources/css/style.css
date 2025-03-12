@@ -243,4 +243,8 @@ button.send svg {
 .img-myself.back img {
   opacity: 0.5;
   width: 475px;
+}
+
+.container.profile .marquee-container {
+  border: 1px solid transparent;
 }/*# sourceMappingURL=style.css.map */

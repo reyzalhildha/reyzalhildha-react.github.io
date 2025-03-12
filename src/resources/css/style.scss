@@ -262,3 +262,11 @@ button {
         }
     }
 }
+
+.container {
+    &.profile {
+        .marquee-container {
+            border: 1px solid transparent; // remove this after useless
+        }
+    }
+}

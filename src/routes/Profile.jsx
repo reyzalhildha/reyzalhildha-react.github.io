@@ -4,18 +4,20 @@ import MySelf from "../resources/img/reyzalhildha.jpg";
 export default function Profile() {
     return (
         <>
-            <div id="profile" className="container">
-                <Marquee speed={200} style={{ fontSize: "8rem" }} className="marquee" direction="left">
-                    PROFILE PROFILE PROFILE PROFILE <b style={{ color: 'transparent' }}>l</b>
-                </Marquee>
+            <div id="profile" className="container profile">
+                <div className="marquee-container">
+                    <Marquee speed={200} style={{ fontSize: "8rem" }} className="marquee" direction="left">
+                        PROFILE PROFILE PROFILE PROFILE <b style={{ color: 'transparent' }}>l</b>
+                    </Marquee>
+                </div>
                 <div className="img-myself front">
-                    <img src={MySelf} alt=""/>
+                    <img src={MySelf} alt="" />
                 </div>
                 <div className="img-myself back">
-                    <img src={MySelf} alt=""/>
+                    <img src={MySelf} alt="" />
                 </div>
             </div>
-            
+
         </>
     );
 }
