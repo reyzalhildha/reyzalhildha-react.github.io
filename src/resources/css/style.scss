@@ -6,9 +6,9 @@
 @import "./mixins.scss";
 
 :root {
-    --text-color: oklch(96.12% 0 0);
-    --background-color: color-mix(in lab, oklch(0% 0 0) 90%, transparent);
-    --tertiary-color: #b7ab98;
+    // --text-color: oklch(96.12% 0 0);
+    // --background-color: color-mix(in lab, oklch(0% 0 0) 90%, transparent);
+    // --tertiary-color: #b7ab98;
     --font-moglan-demo: Moglan-Demo;
     --font-jetBrains-mono: "JetBrains Mono", monospace;
 }
@@ -18,6 +18,8 @@
     --white-color: oklch(96.12% 0 0); // white
     --background-color: color-mix(in lab, oklch(0% 0 0) 90%, transparent); // black
     --tertiary-color: #b7ab98;
+    --filter-skills: brightness(0.6);
+    --chocolate-color: #d0c4b8;
 }
 
 [data-theme="light"] {
@@ -25,6 +27,9 @@
     --white-color: oklch(96.12% 0 0); // white
     --background-color: oklch(96.12% 0 0); // white
     --tertiary-color: #b7ab98;
+    --filter-skills: grayscale(1);
+    --chocolate-color: #522f2c;
+    --chocolate-color: color-mix(in lab, oklch(0% 0 0) 90%, transparent);
 }
 
 html,

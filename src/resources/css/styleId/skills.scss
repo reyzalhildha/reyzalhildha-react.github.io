@@ -1,0 +1,32 @@
+#skills {
+    position: relative;
+    display: block;
+    top: -67px;
+
+    .container-skills {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 30% 1fr;
+
+        .box-skills {
+            img {
+                width: 100%;
+                filter: var(--filter-skills);
+            }
+        }
+
+        .content-skills {
+            padding: 10em 2em 2em 2em;
+            display: block;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            font-family: Modelica;
+            font-weight: bold;
+
+            .Typewriter {
+                color: var(--chocolate-color)
+            }
+        }
+    }
+}

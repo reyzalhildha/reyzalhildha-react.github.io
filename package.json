@@ -22,7 +22,7 @@
   },
   "scripts": {
     "install-deps": "npm install -a",
-    "start": "react-scripts start",
+    "start": "npm install -a && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

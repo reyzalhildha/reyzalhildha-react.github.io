@@ -2,4 +2,9 @@
     font-family: Moglan-Demo;
     src: url('./Moglan_DEMO.ttf');
 }
+@font-face {
+    font-family: Modelica;
+    src: url('./BwModelica-Regular.otf') format('opentype'),
+         url('./BwModelica-Regular.woff') format('woff'),;
+}
 

@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 
 import "./resources/css/style.css";
+import "./resources/css/styleId/skills.css";
 import "./resources/css/animation.css";
 import "./resources/css/mixins.css";
 import "./resources/font/fonts.css";
