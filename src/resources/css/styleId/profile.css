@@ -1,18 +1,18 @@
-#skills {
+#profile {
   position: relative;
   display: block;
   top: -67px;
 }
-#skills .container-skills {
+#profile .container-profile {
   width: 100%;
   display: grid;
   grid-template-columns: 30% 1fr;
 }
-#skills .container-skills .box-skills img {
+#profile .container-profile .box-profile img {
   width: 100%;
-  filter: var(--filter-skills);
+  filter: var(--filter-profile);
 }
-#skills .container-skills .content-skills {
+#profile .container-profile .content-profile {
   padding: 10em 2em 2em 2em;
   display: block;
   flex-wrap: wrap;
@@ -21,6 +21,6 @@
   font-family: Modelica;
   font-weight: bold;
 }
-#skills .container-skills .content-skills .Typewriter {
+#profile .container-profile .content-profile .Typewriter {
   color: var(--chocolate-color);
-}/*# sourceMappingURL=skills.css.map */
+}/*# sourceMappingURL=profile.css.map */

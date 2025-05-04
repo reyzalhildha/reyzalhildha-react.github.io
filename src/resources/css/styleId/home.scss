@@ -1,0 +1,85 @@
+#home {
+    &.container {
+        .container-home {
+            .marquee-container {  
+                height: 150px; /* sesuaikan tinggi marquee */
+                overflow: hidden;
+
+                .marquee {
+                    mix-blend-mode: difference;
+                    z-index: 999999;
+
+                    .rfm-child {
+                        color: var(--white-color);
+                        font-style: italic;
+                        font-family: var(--font-moglan-demo);
+                        font-weight: 600;
+                        letter-spacing: 6px;
+                    }
+                }
+
+                //sample chatgpt
+                .fade-transition {
+                    left: 0;
+                    position: absolute;
+                    transition: opacity 1s ease;
+                }
+
+                .fade-in {
+                    opacity: 1;
+                    z-index: 9999;
+                    mix-blend-mode: difference;
+
+                }
+
+                .fade-out {
+                    opacity: 0;
+                    z-index: 9999;
+                    mix-blend-mode: difference;
+
+                }
+            }
+
+            .image-container {
+                .img-myself {
+                    &.front {
+                        top: 20%;
+                        left: 36%;
+                        position: absolute;
+                        transform: rotate(357deg);
+                        z-index: 999;
+
+                        img {
+                            filter: contrast(0.5);
+                            width: 425px;
+                        }
+
+                        &:hover {
+                            cursor: pointer;
+                            left: 30%;
+                            transform: rotate(360deg);
+                            transition: all 0.5s ease-in-out;
+
+                            img {
+                                transition: all 0.5s ease-in-out;
+                                width: 520px;
+                            }
+                        }
+                    }
+
+                    &.back {
+                        top: 16%;
+                        left: 34%;
+                        position: absolute;
+                        z-index: 1;
+
+                        img {
+                            opacity: 0.5;
+                            width: 475px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

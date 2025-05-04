@@ -3,20 +3,21 @@ import { Atom } from "react-loading-indicators";
 import reportWebVitals from "./reportWebVitals";
 import ReactDOM from "react-dom/client";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
 
 import "./resources/css/style.css";
-import "./resources/css/styleId/skills.css";
+import "./resources/css/styleId/home.css";
+import "./resources/css/styleId/profile.css";
 import "./resources/css/animation.css";
 import "./resources/css/mixins.css";
 import "./resources/font/fonts.css";
 
 import Navbar from "./components/Navbar";
+import Home from "./routes/Home";
 import Profile from "./routes/Profile";
-import Skills from "./routes/Skills";
 import Projects from "./routes/Projects";
 import Ollama from "./routes/Ollama";
 
@@ -76,8 +77,8 @@ const App = () => {
         <>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Profile />} />
-            <Route path="/skills" element={<Skills />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/profile" element={<Profile />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/ollama" element={<Ollama />} />
           </Routes>

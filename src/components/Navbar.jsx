@@ -30,10 +30,10 @@ function Navbar() {
         <>
             <div className="container-navbar">
                 <ul>
-                    <Link to="/">Profile</Link>
-                    <Link to="/skills">Skilss</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/ollama">Ollama-Chat</Link>
+                    <Link to="/">Home</Link>
+                    <Link to="profile">Profile</Link>
+                    <Link to="projects">Projects</Link>
+                    <Link to="ollama">Ollama-Chat</Link>
                 </ul>
 
                 <div className="btn-dark-mode">

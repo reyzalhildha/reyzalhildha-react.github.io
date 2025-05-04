@@ -12,8 +12,9 @@
   --white-color: oklch(96.12% 0 0);
   --background-color: color-mix(in lab, oklch(0% 0 0) 90%, transparent);
   --tertiary-color: #b7ab98;
-  --filter-skills: brightness(0.6);
+  --filter-profile: brightness(0.6);
   --chocolate-color: #d0c4b8;
+  --background-navbar: transparent;
 }
 
 [data-theme=light] {
@@ -21,9 +22,10 @@
   --white-color: oklch(96.12% 0 0);
   --background-color: oklch(96.12% 0 0);
   --tertiary-color: #b7ab98;
-  --filter-skills: grayscale(1);
+  --filter-profile: grayscale(1);
   --chocolate-color: #522f2c;
   --chocolate-color: color-mix(in lab, oklch(0% 0 0) 90%, transparent);
+  --background-navbar: white;
 }
 
 html,
@@ -132,6 +134,7 @@ button.send svg {
   position: sticky;
   top: 0;
   z-index: 999999;
+  background-color: var(--background-navbar);
 }
 .container-navbar ul {
   gap: 1em;
@@ -144,6 +147,9 @@ button.send svg {
   padding: 10px 1em;
 }
 .container-navbar a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: var(--text-color);
 }
@@ -211,42 +217,4 @@ button.send svg {
 
 .Typewriter {
   font-size: 80px;
-}
-
-.marquee {
-  mix-blend-mode: difference;
-  z-index: 999999;
-}
-.marquee .rfm-child {
-  color: var(--white-color);
-  font-style: italic;
-  font-family: var(--font-moglan-demo);
-  font-weight: 600;
-  letter-spacing: 6px;
-}
-
-.img-myself.front {
-  top: 20%;
-  left: 36%;
-  position: absolute;
-  transform: rotate(357deg);
-  z-index: 999;
-}
-.img-myself.front img {
-  filter: contrast(0.5);
-  width: 425px;
-}
-.img-myself.back {
-  top: 16%;
-  left: 34%;
-  position: absolute;
-  z-index: 1;
-}
-.img-myself.back img {
-  opacity: 0.5;
-  width: 475px;
-}
-
-.container.profile .marquee-container {
-  border: 1px solid transparent;
 }/*# sourceMappingURL=style.css.map */

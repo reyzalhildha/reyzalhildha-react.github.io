@@ -1,23 +1,31 @@
-import Marquee from "react-fast-marquee";
-import MySelf from "../resources/img/reyzalhildha.jpg";
+import Typewriter from "typewriter-effect";
+import Rey from "../../src/resources/img/reyzalhildha-vector.png";
 
 export default function Profile() {
-    return (
-        <>
-            <div id="profile" className="container profile">
-                <div className="marquee-container">
-                    <Marquee speed={200} style={{ fontSize: "8rem" }} className="marquee" direction="left">
-                        PROFILE PROFILE PROFILE PROFILE <b style={{ color: 'transparent' }}>l</b>
-                    </Marquee>
-                </div>
-                <div className="img-myself front">
-                    <img src={MySelf} alt="" />
-                </div>
-                <div className="img-myself back">
-                    <img src={MySelf} alt="" />
-                </div>
+  return (
+    <>
+      <div id="profile" className="container">
+        <section>
+          <div className="container-profile">
+            <div className="box-profile">
+              <img src={Rey} alt="Reyzal Hildha" className="reyzalhildha" />
             </div>
-
-        </>
-    );
+            <div className="content-profile">
+              <p>HELLO! I AM</p>
+              <Typewriter
+                options={{
+                  strings: ["REYZAL HILDHA HASSAN", "a Web Developer"],
+                  autoStart: true,
+                  loop: true,
+                  delay: 150,
+                }} />
+            </div>
+          </div>
+        </section>
+        <section>
+          
+        </section>
+      </div>
+    </>
+  );
 }

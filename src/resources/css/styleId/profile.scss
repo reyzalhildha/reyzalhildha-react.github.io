@@ -1,21 +1,21 @@
-#skills {
+#profile {
     position: relative;
     display: block;
     top: -67px;
 
-    .container-skills {
+    .container-profile {
         width: 100%;
         display: grid;
         grid-template-columns: 30% 1fr;
 
-        .box-skills {
+        .box-profile {
             img {
                 width: 100%;
-                filter: var(--filter-skills);
+                filter: var(--filter-profile);
             }
         }
 
-        .content-skills {
+        .content-profile {
             padding: 10em 2em 2em 2em;
             display: block;
             flex-wrap: wrap;
