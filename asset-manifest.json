@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/reyzalhildha-react.github.io/static/css/main.f94d5f66.css",
-    "main.js": "/reyzalhildha-react.github.io/static/js/main.e52adbbc.js",
+    "main.css": "/reyzalhildha-react.github.io/static/css/main.9108b75d.css",
+    "main.js": "/reyzalhildha-react.github.io/static/js/main.38c8896d.js",
     "static/js/453.1407b060.chunk.js": "/reyzalhildha-react.github.io/static/js/453.1407b060.chunk.js",
+    "static/media/reyzalhildha-vector.png": "/reyzalhildha-react.github.io/static/media/reyzalhildha-vector.cd924572633b37ebf759.png",
     "static/media/reyzalhildha.jpg": "/reyzalhildha-react.github.io/static/media/reyzalhildha.b628c9d5c703852cfa35.jpg",
+    "static/media/BwModelica-Regular.otf": "/reyzalhildha-react.github.io/static/media/BwModelica-Regular.90bfe0b3ba25954fcda0.otf",
+    "static/media/BwModelica-Regular.woff": "/reyzalhildha-react.github.io/static/media/BwModelica-Regular.d700f9b048a1c80ae371.woff",
     "static/media/Moglan_DEMO.ttf": "/reyzalhildha-react.github.io/static/media/Moglan_DEMO.9b83dd5fa6d4365aeb84.ttf",
     "index.html": "/reyzalhildha-react.github.io/index.html",
-    "main.f94d5f66.css.map": "/reyzalhildha-react.github.io/static/css/main.f94d5f66.css.map",
-    "main.e52adbbc.js.map": "/reyzalhildha-react.github.io/static/js/main.e52adbbc.js.map",
+    "main.9108b75d.css.map": "/reyzalhildha-react.github.io/static/css/main.9108b75d.css.map",
+    "main.38c8896d.js.map": "/reyzalhildha-react.github.io/static/js/main.38c8896d.js.map",
     "453.1407b060.chunk.js.map": "/reyzalhildha-react.github.io/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f94d5f66.css",
-    "static/js/main.e52adbbc.js"
+    "static/css/main.9108b75d.css",
+    "static/js/main.38c8896d.js"
   ]
 }
